@@ -57,7 +57,7 @@ public class Class_3_Operator : MonoBehaviour
         Debug.Log($"攻擊力：{attack}");   //＄字串格式
         Debug.Log("攻擊力：{attack}");    //沒有寫$
 
-        
+
         Debug.Log("<b>粗體</b>");
         Debug.Log("<color=Orange>橘色<coior>");
         //色碼：#紅紅綠綠藍藍，數值 0~9 a~f 越右邊顏色月亮 #000黑 # fff白
@@ -89,6 +89,7 @@ public class Class_3_Operator : MonoBehaviour
         Debug.Log(numerA % numerB);
         #endregion
 
+        #region 比較運算子
         Debug.Log("<color=#f93>---比較運算子---</color");
         //比較運算子，使用後會得到布林值
         int numberC = 100, numberD = 1;
@@ -98,8 +99,32 @@ public class Class_3_Operator : MonoBehaviour
         Debug.Log(numberC <= numberD); // 小於等於 false
         Debug.Log(numberC == numberD); // 等    於 true
         Debug.Log(numberC != numberD); // 不 等 於 false
+        #endregion
+
+        #region 布林邏輯運算子
+        Debug.Log("<color=#f93>---布林邏輯運算子---</color");
+        // 邏輯否定：將布林值變成相反的值
+        Debug.Log(!true);                                 // False
+        Debug.Log(!false);                                // True
+        bool boolVarTrue = true, boolVarFalse = false;
+        Debug.Log(!boolVarTrue);                          // False
+        Debug.Log(!boolVarFalse);                         // True
+        Debug.Log("<color=#f93>---並且與或著 && ||---</color");
+        // 並且：比較兩個布林值，只要有一個 false 的結果就是 false
+        Debug.Log(true && true);                          // True
+        Debug.Log(true && false);                         // False
+        Debug.Log(false && true);                         // False
+        Debug.Log(false && false);                        // False
+        // 或著：比較兩個布林值，只要有一個 true 結果就是 true
+        Debug.Log(true || true);                          // true
+        Debug.Log(true || false);                         // true
+        Debug.Log(false || true);                         // true
+        Debug.Log(false || false);                        // false
+        #endregion
+
+
+
+
 
     }
-
 }
-
