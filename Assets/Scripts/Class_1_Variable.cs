@@ -27,7 +27,7 @@ public class Class_1_Varible : MonoBehaviour
     // 私人:禁止其他類別存取，隱藏在屬性面板上 private (預設)
     public int coin = 500;
     private int level = 3;
-
+   
 }
 
 //類別外，不要將程式寫在這裡
