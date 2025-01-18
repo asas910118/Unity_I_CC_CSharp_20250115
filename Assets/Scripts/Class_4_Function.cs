@@ -11,6 +11,7 @@ public class Class_4_Function : MonoBehaviour
 
 {
     private object item;
+    private object speed;
 
     private void Awake()
     {
@@ -46,6 +47,11 @@ public class Class_4_Function : MonoBehaviour
         Debug.Log($"<color=#a33>9 的平方 {number9}</color>");
         // 第二種：把傳回方法當作該傳回類型使用
         Debug.Log($"<color=#a33>7 的平方 {Square(7)}</color>");
+
+        Debug.Log($"<color=#6f3>{BMI(60, 1.68f)}</color>");
+        Debug.Log($"<color=#6f3>{BMI(80, 1.85f)}</color>");
+        Move();
+        Move(50.5f);
     }
 
     // 框選要整理的程式 > crtl + k + s #region 快速完成程式碼片段
@@ -101,6 +107,7 @@ public class Class_4_Function : MonoBehaviour
     }
     #endregion
 
+    #region 方法傳回
     // 傳回方法：傳回類型不是 void ，呼叫該方法會獲得結果
     // 傳回方法 {} 必須在內使用 return 關鍵字將結果傳回
     /// <summary>
@@ -112,4 +119,46 @@ public class Class_4_Function : MonoBehaviour
     {
         return number = number;
     }
+
+    private float Square(float number)
+    {
+        return number = number;
+    }
+
+    /// <summary>
+    /// BMI 計算
+    /// </summary>
+    /// <param name="weight">體重：公斤</param>
+    /// <param name="weight">身高：公尺</param>
+    private float BMI(float weight, float height)
+    {
+        return weight / Square(height);
+
+    } 
+    #endregion
+
+    //名稱不能重複，類別、變數與方法
+
+    private void Test() { }
+    // private void Test() { }      // 名稱重複的錯誤
+    // 方法多載 function overloat
+    // 參數的類型或數量不同
+    // 零個參數
+    /// <summary>
+    /// 移動
+    /// </summary>
+    private void Move()
+    {
+        Debug.Log("<color=#19f>移動中</color>");
+    }
+    // 一個參數
+    /// <summary>
+    /// 移動方法並移動速度
+    /// </summary>
+    /// <param name="speed">移動速度</param>
+    private void Move(float speed)
+    {
+    Debug.Log($"<color=#19f>移動中，速度：{speed}</color>");
+    }
+
 }
