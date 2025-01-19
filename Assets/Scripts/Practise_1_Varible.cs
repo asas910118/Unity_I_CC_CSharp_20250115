@@ -1,9 +1,9 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class Practise_1_Varible : MonoBehaviour
 {
     public int coin = 999;
     private float jumpheight = 77.5f;
     private bool DragonSoul = true;
-    public string arms = "¤T¶µ¤§¤O";
+    public string arms = "ä¸‰é …ä¹‹åŠ›";
 }
