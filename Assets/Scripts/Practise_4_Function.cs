@@ -1,6 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Practise_4_Function
+public class Practise_4_Function:MonoBehaviour
 {
     
 }

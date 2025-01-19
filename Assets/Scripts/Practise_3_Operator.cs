@@ -1,11 +1,10 @@
-using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Practise_3_Operator : MonoBehaviour 
+public class Practise_3_Operator : MonoBehaviour
 {
-    private float 
-        
+    private void Awake()
     {
-        
+        Debug.Log(6 / 2 + (1 + 2));           // 6
     }
+        
 }

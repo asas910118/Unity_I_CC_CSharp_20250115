@@ -1,8 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Practise_2_DataType
+public class Practise_2_DataType : MonoBehaviour 
 {
-    public float variablesFloat = 7.7f;
-    public double variablesDoubie = 0.12345f;
-    public decimal variablesDecimal = 1.23456789m;
+    public float variablesfloat = 7.7f;
+    public double variablesdouble = 0.12345f;
+    public decimal variablesdecimal = 1.23456789m;
 }

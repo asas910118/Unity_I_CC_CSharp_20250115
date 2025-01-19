@@ -182,6 +182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634670573}
   - component: {fileID: 1634670574}
+  - component: {fileID: 1634670575}
   m_Layer: 0
   m_Name: Practise_3_Operator
   m_TagString: Untagged
@@ -214,6 +215,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdb1ce99a04aa7e45a8636fc60992d54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1634670575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634670572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25990d9b881c6ca47983b4dd5ad6a8e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1707696169
