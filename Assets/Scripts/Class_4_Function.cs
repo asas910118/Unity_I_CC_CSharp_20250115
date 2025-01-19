@@ -129,7 +129,7 @@ public class Class_4_Function : MonoBehaviour
     /// BMI 計算
     /// </summary>
     /// <param name="weight">體重：公斤</param>
-    /// <param name="weight">身高：公尺</param>
+    /// <param name="height">身高：公尺</param>
     private float BMI(float weight, float height)
     {
         return weight / Square(height);
